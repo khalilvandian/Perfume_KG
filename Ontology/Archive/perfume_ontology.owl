@@ -1,0 +1,987 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.org/perfume_ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.org/perfume_ontology.owl">
+    <Prefix name="" IRI="http://example.org/perfume_ontology.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Note"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Eau_Fraiche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Eau_de_Cologne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Eau_de_Perfume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Eau_de_Toilette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Perfume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perfume_Perfume_Oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmellGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccord"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBaseNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMiddleNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasScent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSimilarPrices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSimilarScents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopNote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFromSmellGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#listedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producedByCompany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producedByPerson"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sameAs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LongetivityIseternal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LongetivityIslongLasting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LongetivityIsmoderate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LongetivityIsveryWeak"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LongetivityIsweak"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#comments"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genderVoteFemale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genderVoteMale"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_offline_store"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#odorProfile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priceIsGoodValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priceIsGreatValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priceIsOk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priceIsOverpriced"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#priceIsWayOverpriced"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#releaseYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#scent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sillageVoteIsEnormous"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sillageVoteIsIntimate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sillageVoteIsModerate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sillageVoteIsStrong"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BergamotNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BirchNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catherine_Selig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CitrusSmells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeatherNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MuskNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RaspberryNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SaffronNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SandalwoodNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuedeNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TUMI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThymeNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aromatic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#citrus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#freshSpicy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fruity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leather"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#musky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powdery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warmSpicy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#woody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#odorProfile"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Brand"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nose"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Eau_Fraiche"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Eau_de_Cologne"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Eau_de_Perfume"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Eau_de_Toilette"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Perfume"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perfume_Perfume_Oil"/>
+        <Class IRI="#Perfume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platform"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Nose"/>
+        <Class IRI="#Note"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Perfume_Eau_Fraiche"/>
+        <Class IRI="#Perfume_Eau_de_Cologne"/>
+        <Class IRI="#Perfume_Eau_de_Perfume"/>
+        <Class IRI="#Perfume_Eau_de_Toilette"/>
+        <Class IRI="#Perfume_Perfume"/>
+        <Class IRI="#Perfume_Perfume_Oil"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#BergamotNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#BirchNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nose"/>
+        <NamedIndividual IRI="#Catherine_Selig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SmellGroup"/>
+        <NamedIndividual IRI="#CitrusSmells"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#LeatherNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#MuskNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#RaspberryNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#SaffronNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#SandalwoodNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#SuedeNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brand"/>
+        <NamedIndividual IRI="#TUMI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Note"/>
+        <NamedIndividual IRI="#ThymeNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#aromatic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#citrus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#freshSpicy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#fruity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#leather"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#musky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#powdery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#warmSpicy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Accord"/>
+        <NamedIndividual IRI="#woody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perfume"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFromSmellGroup"/>
+        <NamedIndividual IRI="#BergamotNote"/>
+        <NamedIndividual IRI="#CitrusSmells"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccord"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#citrus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBaseNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#LeatherNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBaseNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#MuskNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasBaseNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#SandalwoodNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMiddleNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#BirchNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMiddleNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#RaspberryNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMiddleNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#SuedeNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#BergamotNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#SaffronNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTopNote"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#ThymeNote"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#producedByCompany"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#TUMI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#producedByPerson"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <NamedIndividual IRI="#Catherine_Selig"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LongetivityIseternal"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LongetivityIslongLasting"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LongetivityIsmoderate"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LongetivityIsveryWeak"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#LongetivityIsweak"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genderVoteFemale"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genderVoteMale"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#priceIsGoodValue"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#priceIsGreatValue"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#priceIsOk"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#priceIsOverpriced"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#priceIsWayOverpriced"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseYear"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sillageVoteIsEnormous"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sillageVoteIsIntimate"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sillageVoteIsModerate"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sillageVoteIsStrong"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#url"/>
+        <NamedIndividual IRI="#19_Degree_TUMI_for_men"/>
+        <Literal>https://www.fragrantica.com/perfume/TUMI/19-Degree-88381.html#cc2293338</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAccord"/>
+        <ObjectProperty IRI="#hasScent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBaseNote"/>
+        <ObjectProperty IRI="#hasNote"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMiddleNote"/>
+        <ObjectProperty IRI="#hasNote"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNote"/>
+        <ObjectProperty IRI="#hasScent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTopNote"/>
+        <ObjectProperty IRI="#hasNote"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#producedByCompany"/>
+        <ObjectProperty IRI="#producedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#producedByPerson"/>
+        <ObjectProperty IRI="#producedBy"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccord"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNote"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSimilarPrices"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSimilarScents"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFromSmellGroup"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#listedOn"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#producedBy"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sameAs"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccord"/>
+        <Class IRI="#Accord"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNote"/>
+        <Class IRI="#Note"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSimilarPrices"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSimilarScents"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFromSmellGroup"/>
+        <Class IRI="#SmellGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#listedOn"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#producedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Brand"/>
+            <Class IRI="#Person"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sameAs"/>
+        <Class IRI="#Perfume"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LongetivityIseternal"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LongetivityIslongLasting"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LongetivityIsmoderate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LongetivityIsveryWeak"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#LongetivityIsweak"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#odorProfile"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#priceIsGoodValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#priceIsGreatValue"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#priceIsOk"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#priceIsOverpriced"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#priceIsWayOverpriced"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sillageVoteIsEnormous"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sillageVoteIsIntimate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sillageVoteIsModerate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sillageVoteIsStrong"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LongetivityIseternal"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LongetivityIslongLasting"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LongetivityIsmoderate"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LongetivityIsveryWeak"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#LongetivityIsweak"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#comments"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#genderVoteFemale"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#genderVoteMale"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_offline_store"/>
+        <Class IRI="#Platform"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Brand"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Platform"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#odorProfile"/>
+        <Class IRI="#Note"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#odorProfile"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#odorProfile"/>
+        <Class IRI="#SmellGroup"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#price"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priceIsGoodValue"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priceIsGreatValue"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priceIsOk"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priceIsOverpriced"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#priceIsWayOverpriced"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rating"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#releaseYear"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#scent"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sillageVoteIsEnormous"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sillageVoteIsIntimate"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sillageVoteIsModerate"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sillageVoteIsStrong"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#size"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#Perfume"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#LongetivityIseternal"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LongetivityIslongLasting"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LongetivityIsmoderate"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LongetivityIsveryWeak"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LongetivityIsweak"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#comments"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#genderVoteFemale"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#genderVoteMale"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_offline_store"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#price"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priceIsGoodValue"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priceIsGreatValue"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priceIsOk"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priceIsOverpriced"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#priceIsWayOverpriced"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rating"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#releaseYear"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#scent"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sillageVoteIsEnormous"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sillageVoteIsIntimate"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sillageVoteIsModerate"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sillageVoteIsStrong"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#size"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#odorProfile"/>
+        <IRI>#BergamotNote</IRI>
+        <Literal>citrusy, bitter &amp; tart, elegant, light note with mild spicy tone, complex with nuances of fruit and aromatic elements, reminiscent of eau de Cologne, it flavors Earl Grey tea.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BergamotNote</IRI>
+        <Literal>Citrus bergamia; Other names: Bergamot Orange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Eau_Fraiche</IRI>
+        <Literal>Description: Eau Fraiche is the lightest type of fragrance, containing only 1-3% of essential oils. It is similar to Eau de Cologne but with an even more diluted concentration. It has a refreshing, subtle scent and is ideal for quick refreshment without a lasting fragrance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Eau_de_Cologne</IRI>
+        <Literal>Eau de Cologne (often abbreviated as EDC) is a type of perfume with a lower concentration of fragrant oils, typically around 2-5%. It has a light and fresh scent, usually with citrus or herbal tones, and its fragrance lasts for a few hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Eau_de_Perfume</IRI>
+        <Literal>Description: Eau de Parfum (EDP) contains a higher concentration of fragrance oils, around 15-20%. It is richer and longer-lasting than Eau de Toilette, with a more intense scent that can last for 4-6 hours or longer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Eau_de_Toilette</IRI>
+        <Literal>Description: Eau de Toilette (EDT) is one of the most common forms of perfume, with a concentration of essential oils around 5-15%. It has a lighter scent compared to Eau de Parfum and typically lasts for 3-4 hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Perfume</IRI>
+        <Literal>Description: This could refer to the highest concentration of fragrance oils, sometimes called &quot;parfum&quot; or &quot;extrait de parfum.&quot; It contains between 20-40% essential oils, providing the longest-lasting scent that can endure for up to 12 hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#description"/>
+        <IRI>#Perfume_Perfume_Oil</IRI>
+        <Literal>Description: Perfume oil is a concentrated form of fragrance where the base is typically oil rather than alcohol. It contains a higher concentration of essential oils, around 15-30%, making it last longer and smell stronger than other types of perfumes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#19_Degree_TUMI_for_men</IRI>
+        <Literal>19 Degree by TUMI is a Leather fragrance for men. This is a new fragrance. 19 Degree was launched in 2023. The nose behind this fragrance is Catherine Selig. Top notes are Bergamot, Thyme and Saffron; middle notes are Raspberry, Suede and Birch; base notes are Musk, Sandalwood and Leather.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

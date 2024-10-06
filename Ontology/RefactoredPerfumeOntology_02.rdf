@@ -601,82 +601,93 @@
     
 
 
-    <!-- http://example.org/perfume_ontology.owl#19_Degree_TUMI_for_men -->
+    <!-- http://www.example.org/perfumeKG#Accord_aromatic -->
 
-    <owl:NamedIndividual rdf:about="http://example.org/perfume_ontology.owl#19_Degree_TUMI_for_men">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Perfume"/>
-        <hasAccord rdf:resource="http://www.example.org/perfumeKG#citrus"/>
-        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#LeatherNote"/>
-        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#MuskNote"/>
-        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#SandalwoodNote"/>
-        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#BirchNote"/>
-        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#RaspberryNote"/>
-        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#SuedeNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#BergamotNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#BirchNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#LeatherNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#MuskNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#RaspberryNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#SaffronNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#SandalwoodNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#SuedeNote"/>
-        <hasNote rdf:resource="http://www.example.org/perfumeKG#ThymeNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#BergamotNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#BirchNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#LeatherNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#MuskNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#RaspberryNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#SaffronNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#SandalwoodNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#SuedeNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#ThymeNote"/>
-        <hasScent rdf:resource="http://www.example.org/perfumeKG#citrus"/>
-        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#BergamotNote"/>
-        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#SaffronNote"/>
-        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#ThymeNote"/>
-        <producedBy rdf:resource="http://www.example.org/perfumeKG#Catherine_Selig"/>
-        <producedBy rdf:resource="http://www.example.org/perfumeKG#TUMI"/>
-        <producedByBrand rdf:resource="http://www.example.org/perfumeKG#TUMI"/>
-        <producedByCompany rdf:resource="http://www.example.org/perfumeKG#TUMI"/>
-        <producedByPerson rdf:resource="http://www.example.org/perfumeKG#Catherine_Selig"/>
-        <LongetivityIseternal rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</LongetivityIseternal>
-        <LongetivityIslongLasting rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">47</LongetivityIslongLasting>
-        <LongetivityIsmoderate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</LongetivityIsmoderate>
-        <LongetivityIsveryWeak rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</LongetivityIsveryWeak>
-        <LongetivityIsweak rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</LongetivityIsweak>
-        <genderVoteFemale rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</genderVoteFemale>
-        <genderVoteMale rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70</genderVoteMale>
-        <priceIsGoodValue rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</priceIsGoodValue>
-        <priceIsGreatValue rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</priceIsGreatValue>
-        <priceIsOk rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</priceIsOk>
-        <priceIsOverpriced rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</priceIsOverpriced>
-        <priceIsWayOverpriced rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</priceIsWayOverpriced>
-        <releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2023</releaseYear>
-        <sillageVoteIsEnormous rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</sillageVoteIsEnormous>
-        <sillageVoteIsIntimate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</sillageVoteIsIntimate>
-        <sillageVoteIsModerate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</sillageVoteIsModerate>
-        <sillageVoteIsStrong rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</sillageVoteIsStrong>
-        <rdfs:comment>19 Degree by TUMI is a Leather fragrance for men. This is a new fragrance. 19 Degree was launched in 2023. The nose behind this fragrance is Catherine Selig. Top notes are Bergamot, Thyme and Saffron; middle notes are Raspberry, Suede and Birch; base notes are Musk, Sandalwood and Leather.</rdfs:comment>
-        <rdfs:seeAlso>https://www.fragrantica.com/perfume/TUMI/19-Degree-88381.html#cc2293338</rdfs:seeAlso>
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_aromatic">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Aromatic</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#BergamotNote -->
+    <!-- http://www.example.org/perfumeKG#Accord_citrus -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#BergamotNote">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
-        <isFromSmellGroup rdf:resource="http://www.example.org/perfumeKG#CitrusSmells"/>
-        <odorProfile>citrusy, bitter &amp; tart, elegant, light note with mild spicy tone, complex with nuances of fruit and aromatic elements, reminiscent of eau de Cologne, it flavors Earl Grey tea.</odorProfile>
-        <rdfs:comment>Citrus bergamia; Other names: Bergamot Orange</rdfs:comment>
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_citrus">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Citrus</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#BirchNote -->
+    <!-- http://www.example.org/perfumeKG#Accord_freshSpicy -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#BirchNote">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_freshSpicy">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Fresh Spicy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_fruity -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_fruity">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Fruity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_leather -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_leather">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <owl:differentFrom rdf:resource="http://www.example.org/perfumeKG#Note_leather"/>
+        <rdfs:label>Leather</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_musky -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_musky">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Musky</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_smoky -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_smoky">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Smoky</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_sweet -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_sweet">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Sweet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_warmSpicy -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_warmSpicy">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Warm Spicy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Accord_woody -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Accord_woody">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Woody</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -698,147 +709,176 @@
     
 
 
-    <!-- http://www.example.org/perfumeKG#LeatherNote -->
+    <!-- http://www.example.org/perfumeKG#Note_bergamot -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#LeatherNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_bergamot">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <isFromSmellGroup rdf:resource="http://www.example.org/perfumeKG#CitrusSmells"/>
+        <odorProfile>citrusy, bitter &amp; tart, elegant, light note with mild spicy tone, complex with nuances of fruit and aromatic elements, reminiscent of eau de Cologne, it flavors Earl Grey tea.</odorProfile>
+        <rdfs:comment>Citrus bergamia; Other names: Bergamot Orange</rdfs:comment>
+        <rdfs:label>Bergamot</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#MuskNote -->
+    <!-- http://www.example.org/perfumeKG#Note_birch -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#MuskNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_birch">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Birch</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#RaspberryNote -->
+    <!-- http://www.example.org/perfumeKG#Note_leather -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#RaspberryNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_leather">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Leather</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#SaffronNote -->
+    <!-- http://www.example.org/perfumeKG#Note_musk -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#SaffronNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_musk">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Musk</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#SandalwoodNote -->
+    <!-- http://www.example.org/perfumeKG#Note_raspberry -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#SandalwoodNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_raspberry">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Raspberry</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#SuedeNote -->
+    <!-- http://www.example.org/perfumeKG#Note_saffron -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#SuedeNote">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_saffron">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Saffron</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#TUMI -->
+    <!-- http://www.example.org/perfumeKG#Note_sandalwood -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#TUMI">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_sandalwood">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Sandalwood</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Note_suede -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_suede">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Suede</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Note_thyme -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Note_thyme">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
+        <rdfs:label>Thyme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Perfume_19_Degree_TUMI_for_men -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Perfume_19_Degree_TUMI_for_men">
+        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Perfume"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_aromatic"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_citrus"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_fruity"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_leather"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_musky"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_smoky"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_sweet"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_warmSpicy"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#Accord_woody"/>
+        <hasAccord rdf:resource="http://www.example.org/perfumeKG#َAccord_powdery"/>
+        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#Note_leather"/>
+        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#Note_musk"/>
+        <hasBaseNote rdf:resource="http://www.example.org/perfumeKG#Note_sandalwood"/>
+        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#Note_birch"/>
+        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#Note_raspberry"/>
+        <hasMiddleNote rdf:resource="http://www.example.org/perfumeKG#Note_suede"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_bergamot"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_birch"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_leather"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_musk"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_raspberry"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_saffron"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_sandalwood"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_suede"/>
+        <hasNote rdf:resource="http://www.example.org/perfumeKG#Note_thyme"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Accord_citrus"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_bergamot"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_birch"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_leather"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_musk"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_raspberry"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_saffron"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_sandalwood"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_suede"/>
+        <hasScent rdf:resource="http://www.example.org/perfumeKG#Note_thyme"/>
+        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#Note_bergamot"/>
+        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#Note_saffron"/>
+        <hasTopNote rdf:resource="http://www.example.org/perfumeKG#Note_thyme"/>
+        <producedBy rdf:resource="http://www.example.org/perfumeKG#Catherine_Selig"/>
+        <producedBy rdf:resource="http://www.example.org/perfumeKG#Perfume_tumi"/>
+        <producedByBrand rdf:resource="http://www.example.org/perfumeKG#Perfume_tumi"/>
+        <producedByCompany rdf:resource="http://www.example.org/perfumeKG#Perfume_tumi"/>
+        <producedByPerson rdf:resource="http://www.example.org/perfumeKG#Catherine_Selig"/>
+        <LongetivityIseternal rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</LongetivityIseternal>
+        <LongetivityIslongLasting rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">47</LongetivityIslongLasting>
+        <LongetivityIsmoderate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">32</LongetivityIsmoderate>
+        <LongetivityIsveryWeak rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</LongetivityIsveryWeak>
+        <LongetivityIsweak rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</LongetivityIsweak>
+        <genderVoteFemale rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</genderVoteFemale>
+        <genderVoteMale rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">70</genderVoteMale>
+        <priceIsGoodValue rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</priceIsGoodValue>
+        <priceIsGreatValue rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</priceIsGreatValue>
+        <priceIsOk rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">35</priceIsOk>
+        <priceIsOverpriced rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</priceIsOverpriced>
+        <priceIsWayOverpriced rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">8</priceIsWayOverpriced>
+        <releaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2023</releaseYear>
+        <sillageVoteIsEnormous rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</sillageVoteIsEnormous>
+        <sillageVoteIsIntimate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</sillageVoteIsIntimate>
+        <sillageVoteIsModerate rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">53</sillageVoteIsModerate>
+        <sillageVoteIsStrong rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">24</sillageVoteIsStrong>
+        <rdfs:comment>19 Degree by TUMI is a Leather fragrance for men. This is a new fragrance. 19 Degree was launched in 2023. The nose behind this fragrance is Catherine Selig. Top notes are Bergamot, Thyme and Saffron; middle notes are Raspberry, Suede and Birch; base notes are Musk, Sandalwood and Leather.</rdfs:comment>
+        <rdfs:label>19 Degree TUMI for men</rdfs:label>
+        <rdfs:seeAlso>https://www.fragrantica.com/perfume/TUMI/19-Degree-88381.html#cc2293338</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/perfumeKG#Perfume_tumi -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#Perfume_tumi">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Brand"/>
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Company"/>
+        <rdfs:label>TUMI</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.example.org/perfumeKG#ThymeNote -->
+    <!-- http://www.example.org/perfumeKG#َAccord_powdery -->
 
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#ThymeNote">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Note"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#aromatic -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#aromatic">
+    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#َAccord_powdery">
         <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#citrus -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#citrus">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#freshSpicy -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#freshSpicy">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#fruity -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#fruity">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#leather -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#leather">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#musky -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#musky">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#powdery -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#powdery">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#sweet -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#sweet">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#warmSpicy -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#warmSpicy">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.example.org/perfumeKG#woody -->
-
-    <owl:NamedIndividual rdf:about="http://www.example.org/perfumeKG#woody">
-        <rdf:type rdf:resource="http://www.example.org/perfumeKG#Accord"/>
+        <rdfs:label>Powdery</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -851,6 +891,23 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Accord"/>
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Brand"/>
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Note"/>
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Perfume"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Accord"/>
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Note"/>
+            <rdf:Description rdf:about="http://www.example.org/perfumeKG#Perfume"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
