@@ -3,11 +3,26 @@ from rdflib import Graph
 from owlready2 import get_ontology
 import json
 import traceback
+import re
+import unicodedata
+
+def preprocess_name(name):
+    # Normalize unicode characters
+    name = unicodedata.normalize('NFKD', name)
+    # Remove diacritics (accents)
+    name = ''.join(c for c in name if not unicodedata.combining(c))
+    # Replace non-alphanumeric characters with hyphens
+    name = re.sub(r'[^a-zA-Z0-9]+', '-', name)
+    # Remove leading and trailing hyphens
+    name = name.strip('-')
+    # Convert to lowercase
+    name = name.lower()
+    return name
 
 def to_camel_case(snake_str):
-    components = snake_str.replace('_', ' ').split()
-    return components[0] + ''.join(x.capitalize() for x in components[1:])
-
+    # components = snake_str.replace('_', ' ').split()
+    # camelCased =  components[0] + ''.join(x.capitalize() for x in components[1:])
+    return preprocess_name(snake_str)
 
 def create_Accord(accord_name):
     accord_name_cc = 'Accord_' + to_camel_case(accord_name)
